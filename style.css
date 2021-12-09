@@ -4,7 +4,6 @@ body {
 }
 
 body,
-.header-logo,
 .quote,
 .quotee,
 .ad,
@@ -43,11 +42,6 @@ h2 {
     font-size: 24px;
 }
 
-.header-logo h2 {
-    margin-top: 17px;
-
-}
-
 .header-wrapper {
     display: flex;
     padding: 8px 200px;
@@ -61,16 +55,16 @@ h2 {
     flex-direction: column;
 }
 
-.header-logo {
-    display: flex;
-    justify-content:flex-start;
-    width: 100px;
-    height: 100px;
-}
-
 .header-left,
 .hero-text {
     width: 500px;
+}
+
+.header-logo {
+    display: flex;
+    justify-content:flex-start;
+    width: 20%;
+    height: 15%;
 }
 
 .header-text {
