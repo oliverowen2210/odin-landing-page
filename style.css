@@ -7,18 +7,18 @@ body,
 .header-logo,
 .quote,
 .quotee,
-.CTA,
-.CTA-text h2,
-.CTA-text p {
+.ad,
+.ad-text h2,
+.ad-text p {
     margin: 0;
 }
 
-.header,
+.header-wrapper,
 button,
 a,
 .footer,
-.CTA-text h2,
-.CTA-text p {
+.ad-text h2,
+.ad-text p {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -28,23 +28,16 @@ h2 {
     color: #F9FAF8;
 }
 
-.quote-wrapper,
-.CTA-button {
-    background: #E5E7EB;
-}
 
-
-.header,
+.header-wrapper,
 .footer {
     background: #1F2937;
 }
-
 
 h1 {
     width: 420px;
     font-size: 48px;
     font-weight: extra-bold;
-
 }
 
 h2 {
@@ -56,13 +49,12 @@ h2 {
 
 }
 
-.header {
+.header-wrapper {
     display: flex;
     padding: 8px 200px;
     height: 550px;
     justify-content: space-around;
 }
-
 
 .header-left,
 .header-right {
@@ -87,7 +79,6 @@ h2 {
     text-align: left;
 }
 
-
 ul {
     list-style-type: none;
     display: flex;
@@ -108,8 +99,7 @@ button {
     cursor: pointer;
 }
 
-
-.information {
+.info-wrapper {
     height: 550px;
     align-items: center;
 }
@@ -147,7 +137,7 @@ button {
     align-items: center;
     font-size: 42px;
     color: #1F2937;
-
+    background:#E5E7EB;
 }
 
 .quote,
@@ -171,11 +161,12 @@ button {
     align-self: flex-end;
 }
 
-.CTA-wrapper {
-    height: 450px;
+.ad-wrapper {
+    height: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: black;
 }
 
 
@@ -187,22 +178,20 @@ button {
     justify-content: flex-start;
 }
 
-.CTA {
-    background: #3882F6;
-    width: 900px;
+.ad {
+    background: red;
+    width: 1000px;
     margin: 0;
     display: flex;
-    border-radius:0.5em;
     align-items: center;
 }
 
 
-.CTA-text h2 {
+.ad-text h2 {
     font-size: 24px;
 }
 
-
-.CTA-text {
+.ad-text {
     width: 500px;
     height: 200px;
     align-items: flex-start;
@@ -211,14 +200,15 @@ button {
     flex-direction: column;
 }
 
-.CTA-button {
+.ad-button {
     margin: 0 auto;
     border: 1px solid black;
-    border-radius: 0.5em;
+    border-radius: 1em;
     padding: 0px;
+    background: rgb(15, 206, 31);
 }
 
-.CTA-button button {
+.ad-button button {
     font-weight: bold;
     background: none;
     padding: 4px 32px;
