@@ -25,6 +25,11 @@ h2 {
     font-size: 24px;
 }
 
+.header-logo h2 {
+    margin-top: 17px;
+
+}
+
 .header {
     display: flex;
     padding: 8px 200px;
@@ -39,6 +44,7 @@ button {
     border-radius: 1rem;
     padding: 8px 32px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .header-left,
@@ -50,6 +56,7 @@ button {
 .header-logo {
     display: flex;
     justify-content:flex-start;
+    margin: 0;
 }
 
 .header-left {
@@ -72,7 +79,7 @@ button {
 ul {
     list-style-type: none;
     display: flex;
-    align-items: flex-start;
+    align-items: baseline;
     gap: 24px;
 }
 
@@ -82,6 +89,11 @@ a {
 
 .penguin {
     padding-left: 50px;
+}
+
+.information {
+    height: 550px;
+    align-items: center;
 }
 
 .info-header {
@@ -109,4 +121,100 @@ a {
     border-radius: 1rem;
     width: 200px;
     height: 200px;
+}
+
+.quote-wrapper {
+    display: flex;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    background: #E5E7EB;
+    font-size: 42px;
+    color: #1F2937;
+
+}
+
+.quote-body {
+    width: 1050px;
+    display: flex;
+    font-family: cursive;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quote {
+    width: 1050px;
+    margin: 0;
+}
+
+.quotee {
+    width: 350px;
+    font-size: 26px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.CTA-wrapper {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.warning {
+    width: 159px;
+    height: 150px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.CTA {
+    background: #3882F6;
+    width: 1050px;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    border-radius:0.5em;
+    align-items: center;
+}
+
+.CTA-text h2,
+.CTA-text p {
+    margin: 0;
+    color: #E5E7EB;
+}
+
+.CTA-text p {
+    font-size: 18px;
+}
+
+.CTA-text {
+    width: 500px;
+    height: 200px;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.CTA-button {
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    padding: 0px;
+    background: white;
+}
+
+.CTA-button button {
+    font-weight: bold;
+    background: none;
+    padding: 4px 32px;
+    color: black;
 }
