@@ -37,7 +37,6 @@ h2 {
 h1 {
     width: 420px;
     font-size: 48px;
-    font-weight: extra-bold;
 }
 
 h2 {
@@ -65,6 +64,8 @@ h2 {
 .header-logo {
     display: flex;
     justify-content:flex-start;
+    width: 100px;
+    height: 100px;
 }
 
 .header-left,
